@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-     <a href="{{ url("/coba")}}">coba</a>
-    <h1>BRILIANI</h1>
+    <a href="{{ url("/siskom")}}">siskom</a>
+    <h1>BRIL</h1>
 </body>
 </html>

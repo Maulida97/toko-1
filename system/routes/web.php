@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('siskom', function () {
     return view('siskom');
 });
+
+Route::get('coba', function () {
+    return view('coba');
+});
