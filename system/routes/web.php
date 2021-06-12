@@ -24,3 +24,7 @@ Route::get('siskom', function () {
 Route::get('coba', function () {
     return view('coba');
 });
+
+Route::get('template', function () {
+    return view('template.base');
+});
