@@ -22,8 +22,9 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in</p>
-      <form action="{{url('beranda')}}" method="post">
+      <p class="login-box-msg"></p>
+
+      <form action="{{url('beranda')}}" method="get">
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
