@@ -28,7 +28,7 @@
 
           </a>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
+          <a href="{{url('login')}}" class="dropdown-item">
             <!-- Message Start -->
             <div class="profile">
             <i class="fa fa-sign-out"></i>   Logout
