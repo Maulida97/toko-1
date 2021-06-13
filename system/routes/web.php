@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AuthController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,25 +18,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('beranda', function () {
-    return view('beranda');
-});
+Route::get('beranda', [HomeController::class, 'showBeranda']);
+Route::get('produk', [HomeController::class, 'showProduk']);
+Route::get('pesanan', [HomeController::class, 'showPesanan']);
+Route::get('user', [HomeController::class, 'showUser']);
+Route::get('login', [AuthController::class, 'showLogin']);
 
-Route::get('produk', function () {
-    return view('produk');
-});
 
-Route::get('pesanan', function () {
-    return view('pesanan');
-});
-
-Route::get('user', function () {
-    return view('user');
-});
-
-Route::get('login', function () {
-    return view('login');
-});
 Route::get('toko', function () {
     return view('toko');
 });
