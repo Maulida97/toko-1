@@ -29,7 +29,7 @@
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
             <div class="profile">
-            <i class="fa fa-cog"></i>   Profile
+            <i class="fa fa-cog"></i>   Seting
             </div>
 
           </a>

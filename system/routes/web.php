@@ -17,14 +17,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('siskom', function () {
-    return view('siskom');
-});
-
-Route::get('coba', function () {
-    return view('coba');
-});
-
 Route::get('template', function () {
     return view('template.base');
+});
+
+Route::get('beranda', function () {
+    return view('beranda');
+});
+
+Route::get('produk', function () {
+    return view('produk');
+});
+
+Route::get('pesanan', function () {
+    return view('pesanan');
+});
+
+Route::get('user', function () {
+    return view('user');
 });

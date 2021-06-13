@@ -34,7 +34,7 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
            <li class="nav-item">
-            <a href="#" class="nav-link active">
+            <a href="{{url('beranda')}}" class="nav-link active">
               <i class="nav-icon fas fa-home"></i>
               <p>
                 Beranda
@@ -42,23 +42,23 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link ">
-              <i class="nav-icon fas fa-box"></i>
+            <a href="{{url('produk')}}" class="nav-link ">
+              <i class="nav-icon fas fa-box-open"></i>
               <p>
                Produk
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link ">
-             <i class="nav-icon fas fa-bag"></i>
+            <a href="{{url('pesanan')}}" class="nav-link ">
+             <i class="nav-icon fas fa-shopping-bag"></i>
             <p>
                 Pesanan
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{url('user')}}" class="nav-link">
               <i class="nav-icon fas fa-user"></i>
               <p>
                 User
