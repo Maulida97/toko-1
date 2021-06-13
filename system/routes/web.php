@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('template', function () {
-    return view('template.base');
-});
-
 Route::get('beranda', function () {
     return view('beranda');
 });
@@ -37,10 +33,9 @@ Route::get('user', function () {
     return view('user');
 });
 
-Route::get('toko', function () {
-    return view('toko');
-});
-
 Route::get('login', function () {
     return view('login');
+});
+Route::get('toko', function () {
+    return view('toko');
 });
