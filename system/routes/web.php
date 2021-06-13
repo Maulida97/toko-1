@@ -37,6 +37,10 @@ Route::get('user', function () {
     return view('user');
 });
 
+Route::get('toko', function () {
+    return view('toko');
+});
+
 Route::get('login', function () {
     return view('login');
 });
