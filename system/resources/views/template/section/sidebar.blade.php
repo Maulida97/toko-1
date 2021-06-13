@@ -1,3 +1,10 @@
+ @php
+     function checkRouteActive($Route){
+         if (Route::current()->uri == $Route) return 'active';
+     }
+ @endphp
+
+
  <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
@@ -23,7 +30,7 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
            <li class="nav-item">
-            <a href="{{url('beranda')}}" class="nav-link active">
+            <a href="{{url('beranda')}}" class="nav-link {{checkRouteActive('beranda')}}">
               <i class="nav-icon fas fa-home"></i>
               <p>
                 Beranda
@@ -31,7 +38,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{url('produk')}}" class="nav-link ">
+            <a href="{{url('produk')}}" class="nav-link {{checkRouteActive('produk')}}">
               <i class="nav-icon fas fa-box-open"></i>
               <p>
                Produk
@@ -39,7 +46,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{url('pesanan')}}" class="nav-link ">
+            <a href="{{url('pesanan')}}" class="nav-link {{checkRouteActive('pesanan')}}">
              <i class="nav-icon fas fa-shopping-bag"></i>
             <p>
                 Pesanan
@@ -47,7 +54,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{url('user')}}" class="nav-link">
+            <a href="{{url('user')}}" class="nav-link {{checkRouteActive('user')}}">
               <i class="nav-icon fas fa-user"></i>
               <p>
                 User
