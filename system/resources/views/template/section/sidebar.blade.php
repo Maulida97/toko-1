@@ -21,7 +21,7 @@
         </div>
         <div class="info">
           <a class="d-block">ADMIN</a>
-          <a href="#" class="d-block">Maulida Nandar Saputra</a>
+          <a href="" class="d-block">Maulida Nandar Saputra</a>
         </div>
       </div>
 
