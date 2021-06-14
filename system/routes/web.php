@@ -26,3 +26,4 @@ Route::get('user', [AdminController::class, 'showUser']);
 Route::get('login', [AuthController::class, 'showLogin']);
 Route::get('register', [AuthController::class, 'showRegister']);
 Route::get('toko', [HomeController::class, 'showToko']);
+Route::get('barang1', [HomeController::class, 'showBarang1']);
