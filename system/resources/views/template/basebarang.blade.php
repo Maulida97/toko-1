@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="{{url('public')}}/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{url('public')}}/css/themify-icons.css">
 	<link rel="stylesheet" href="{{url('public')}}/css/bootstrap.css">
-	{{-- <link rel="stylesheet" href="{{url('public')}}/css/owl.carousel.css"> --}}
+	<link rel="stylesheet" href="{{url('public')}}/css/owl.carousel.css">
 	<link rel="stylesheet" href="{{url('public')}}/css/nice-select.css">
 	<link rel="stylesheet" href="{{url('public')}}/css/nouislider.min.css">
 	<link rel="stylesheet" href="{{url('public')}}/css/ion.rangeSlider.css" />
@@ -49,7 +49,7 @@
     @include('template.section2.footer')
 	<!-- End footer Area -->
 
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="{{url('public')}}/js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
 		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
 	</script>

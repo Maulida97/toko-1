@@ -9,23 +9,22 @@
 				<div class="col-lg-6">
 					<div class="s_Product_carousel">
 						<div class="single-prd-item">
-							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+							<img class="img-fluid" src="{{url('public')}}/img/category/s-p1.jpg" alt="">
 						</div>
 						<div class="single-prd-item">
-							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+							<img class="img-fluid" src="{{url('public')}}/img/category/s-p1.jpg" alt="">
 						</div>
 						<div class="single-prd-item">
-							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+							<img class="img-fluid" src="{{url('public')}}/img/category/s-p1.jpg" alt="">
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-5 offset-lg-1">
 					<div class="s_product_text">
-						<h3>Faded SkyBlu Denim Jeans</h3>
+						<h3>Faded SkyBlu</h3>
 						<h2>$149.99</h2>
 						<ul class="list">
-							<li><a class="active" href="#"><span>Category</span> : Household</a></li>
-							<li><a href="#"><span>Availibility</span> : In Stock</a></li>
+							<li><h3><span>Availibility</span> : In Stock</h3></li>
 						</ul>
 						<p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are
 							looking for
@@ -186,7 +185,7 @@
 								<div class="review_item">
 									<div class="media">
 										<div class="d-flex">
-											<img src="img/product/review-1.png" alt="">
+											<img src="{{url('public')}}/img/product/review-1.png" alt="">
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>
@@ -203,7 +202,7 @@
 								<div class="review_item reply">
 									<div class="media">
 										<div class="d-flex">
-											<img src="img/product/review-2.png" alt="">
+											<img src="{{url('public')}}/img/product/review-2.png" alt="">
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>

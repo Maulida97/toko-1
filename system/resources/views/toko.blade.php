@@ -76,7 +76,6 @@
 		</div>
 	</header>
 
-	<!-- End Header Area -->
     <!-- start banner Area -->
 	<section class="banner-area">
 		<div class="container">
@@ -91,7 +90,7 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 									<div class="add-bag d-flex align-items-center">
-										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
+										<a class="add-btn" href="{{url('barang1')}}"><span class="lnr lnr-cross"></span></a>
 										<span class="add-text text-uppercase">Add to Bag</span>
 									</div>
 								</div>
