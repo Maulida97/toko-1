@@ -1,5 +1,5 @@
 @extends('template.base')
 
 @section('content')
-<h1>HALAMAN BERANDA</h1>
+<h1>SELAMAT DATANG ADMIN</h1>
 @endsection
