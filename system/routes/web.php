@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\AdminController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,10 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('beranda', [HomeController::class, 'showBeranda']);
-Route::get('produk', [HomeController::class, 'showProduk']);
-Route::get('pesanan', [HomeController::class, 'showPesanan']);
-Route::get('user', [HomeController::class, 'showUser']);
+Route::get('beranda', [AdminController::class, 'showBeranda']);
+Route::get('produk', [AdminController::class, 'showProduk']);
+Route::get('pesanan', [AdminController::class, 'showPesanan']);
+Route::get('user', [AdminController::class, 'showUser']);
 Route::get('login', [AuthController::class, 'showLogin']);
 
 
