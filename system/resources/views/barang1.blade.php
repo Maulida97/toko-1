@@ -1,4 +1,4 @@
-@extends('template.basetoko')
+@extends('template.basebarang')
 
 @section('content')
 
