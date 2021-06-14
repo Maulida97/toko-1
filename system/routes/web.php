@@ -24,6 +24,7 @@ Route::get('produk', [AdminController::class, 'showProduk']);
 Route::get('pesanan', [AdminController::class, 'showPesanan']);
 Route::get('user', [AdminController::class, 'showUser']);
 Route::get('login', [AuthController::class, 'showLogin']);
+Route::get('register', [AuthController::class, 'showRegister']);
 
 
 Route::get('toko', function () {
