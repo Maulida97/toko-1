@@ -9,4 +9,9 @@ class HomeController extends Controller
     {
         return view('toko');
     }
+
+    function showBarang1()
+    {
+        return view('barang1');
+    }
 }
