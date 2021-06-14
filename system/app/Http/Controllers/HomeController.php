@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 class HomeController extends Controller
 {
 
-    // function showBeranda()
-    // {
-    //     return view('beranda');
-    // }
+    function showToko()
+    {
+        return view('toko');
+    }
 }
