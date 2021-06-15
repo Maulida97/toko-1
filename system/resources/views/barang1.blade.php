@@ -219,7 +219,7 @@
 								<div class="review_item">
 									<div class="media">
 										<div class="d-flex">
-											<img src="img/product/review-3.png" alt="">
+											<img src="{{url('public')}}/img/product/review-3.png" alt="">
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>
